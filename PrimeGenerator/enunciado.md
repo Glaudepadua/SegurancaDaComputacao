@@ -1,0 +1,6 @@
+Números primos são muito utilizados em sistemas de segurança computacional. Entretanto, eles são somente úteis se tiverem centenas de dígitos. Não se conhece um método para gerar diretamente números primos grandes, mas existem métodos para se verificar, alguns probabilísticos, se um dado número grande é primo. Dentre os probabilísticos, um dos mais conhecidos e usados é o teste de primalidade de Miller-Rabin. Você deve desenvolver um programa em Java ou Pyton ou C/C++ implementando este método. Deve ser possível, utilizando este programa, gerar números primos de pelos menos 100 dígitos decimais. Use a classe BigInteger para trabalhar com números grandes. Para gerar um número primo, primeiramente gere um número aleatório grande. Então, usando o Muller-Rabin, teste para ver se ele é provavelmente primo. Se não for, gere outro número aleatório, até que consiga um número primo.
+
+Entregáveis: Entregue um arquivo ZIP contendo:
+
+Um documento PDF descrevendo o método de Muller-Rabin, com um exemplo numérico feito a mão para ilustrar o método. No mesmo PDF documente o programa fonte desenvolvido;
+O executável para gerar um número primo grande (pode ser para Linux ou Windows). Este programa deve ter como parâmetro de entrar o número de dígitos decimais (mínimo) que deverá ter o número primo.
